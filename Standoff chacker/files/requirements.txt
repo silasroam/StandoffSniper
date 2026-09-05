@@ -1,0 +1,14 @@
+# Основные зависимости для Telegram Bot на Vercel
+
+# Фреймворк для Telegram Bot
+aiogram==3.4.0
+
+# Асинхронная работа с SQLite
+aiosqlite==3.1.0
+
+# Утилиты
+python-dotenv==1.0.1
+
+# Для работы с Vercel (опционально, но рекомендуется)
+# Позволяет логировать в Vercel Logs
+vercel-python==0.1.0
