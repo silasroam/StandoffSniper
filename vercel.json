@@ -13,10 +13,5 @@
     "ADMIN_ID": "@ADMIN_ID",
     "DB_PATH": "/tmp/standoff_checker.db",
     "PRICE_JSON_PATH": "price.json"
-  },
-  "envs": {
-    "development": {
-      "DB_PATH": ".env.local"
-    }
   }
 }
