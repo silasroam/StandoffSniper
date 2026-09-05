@@ -1,0 +1,22 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": "",
+  "functions": {
+    "api/webhook.py": {
+      "runtime": "python3.12",
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "BOT_TOKEN": "@BOT_TOKEN",
+    "ADMIN_ID": "@ADMIN_ID",
+    "DB_PATH": "/tmp/standoff_checker.db",
+    "PRICE_JSON_PATH": "price.json"
+  },
+  "envs": {
+    "development": {
+      "DB_PATH": ".env.local"
+    }
+  }
+}
